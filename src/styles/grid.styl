@@ -1,0 +1,63 @@
+$grid_d = 
+  display grid
+  grid-template-columns repeat(12, 1fr)
+  gap rem(20)
+$grid = 
+  display grid
+  width 100%
+  gap rem(10)
+  grid-template-columns repeat(6, 1fr)
+
+.grid
+  {$grid}
+  +desktop()
+    {$grid_d}
+
++above('xl')
+  {'.xl\:grid'}
+    {$grid_d}
+
+.padded
+  padding 0 rem(10)
+  +desktop()
+    padding 0 rem(20)
+
+$columns = 12;
+
+for idx in 1..$columns
+  .col-start-{idx}
+    @media (max-width: 1050px)
+      grid-column-start: idx;
+  {'.xl\:col-start-'}{idx}
+    @media (min-width: 1050px)
+      grid-column-start: idx;
+  .col-span-{idx}
+    @media (max-width: 1050px)
+      grid-column-end: span idx
+  {'.xl\:col-span-'}{idx}
+    @media (min-width: 1050px)
+      grid-column-end: span idx
+  .col-end-{idx}
+    @media (max-width: 1050px)
+      grid-column-end: idx
+  {'.xl\:col-end-'}{idx}
+    @media (min-width: 1050px)
+      grid-column-end: idx
+  .row-start-{idx}
+    @media (max-width: 1050px)
+      grid-row-start: idx
+  {'.xl\:row-start-'}{idx}
+    @media (min-width: 1050px)
+      grid-row-start: idx
+  .row-span-{idx}
+    @media (max-width: 1050px)
+      grid-row-end: span idx
+  {'.xl\:row-span-'}{idx}
+    @media (min-width: 1050px)
+      grid-row-end: span idx
+  .row-end-{idx}
+    @media (max-width: 1050px)
+      grid-row-end: idx
+  {'.xl\:row-end-'}{idx}
+    @media (min-width: 1050px)
+      grid-row-end: idx

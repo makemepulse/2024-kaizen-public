@@ -1,0 +1,11 @@
+#!/usr/bin/env node
+
+console.log(process.argv);
+const _input  = process.argv[2]
+const _output = process.argv[3]
+
+import('./gltf-optim-skin.mjs').then(m=>{
+    m.default(_input, _output)
+})
+
+

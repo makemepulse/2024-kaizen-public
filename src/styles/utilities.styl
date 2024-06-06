@@ -1,0 +1,61 @@
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.h-full {
+  height: 100%;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.o-hidden {
+  overflow: hidden;
+}
+
+.bg {
+  min-height: 100vh;
+  min-height: calc(var(--vh, 1vh) * 100);
+  // +mobile()
+  // background var(--gradient)
+}
+
+.tp-dfwv {
+  z-index: 101;
+  display: none;
+  cursor default!important;
+
+  button {
+    cursor pointer!important;
+  }
+
+  html.show-tweakpane & {
+    display: block;
+  }
+}
+
+#theatrejs-studio-root {
+  display: none;
+
+  html.show-theatrejs & {
+    display: block;
+  }
+}
+
+.focusable {
+  &:focus {
+    opacity 0.5;
+  }
+}
+
+.subtitle-icon {
+  height rem(14)
+  width auto
+
+  +desktop() {
+    height rem(20)
+  }
+}

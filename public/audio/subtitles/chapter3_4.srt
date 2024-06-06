@@ -1,0 +1,11 @@
+1
+00:00:00,000 --> 00:00:01,750
+I discovered <strong>Precision.</strong>
+
+2
+00:00:01,750 --> 00:00:05,500
+Like the {frog} frog, I navigated my path with&emsp;skill.
+
+3
+00:00:05,500 --> 00:00:08,000
+<u>Attention</u> and <u>care</u> are important to me.

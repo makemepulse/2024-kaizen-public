@@ -1,0 +1,13 @@
+1
+00:00:01,000 --> 00:00:05,000
+Hi! I'm so <strong>happy</strong> to meet you! {star-empty}
+I have to write to you every day now.
+
+2
+00:00:05,500 --> 00:00:10,000
+I want to <s>say</s> tell you about
+all my questions and <u>dreams.</u>
+
+3
+00:00:10,500 --> 00:00:15,000
+I <strong>hope</strong> I can do it ! {sun}

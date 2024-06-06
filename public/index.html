@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Google Tag Manager -->
+    <link rel="dns-prefetch" href="https://imgsct.cookiebot.com" >
+    <link rel="dns-prefetch" href="https://consentcdn.cookiebot.com" >
+    <link rel="dns-prefetch" href="https://www.googletagmanager.com" >
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-WQCCJV73');</script>
+    <!-- End Google Tag Manager -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=2,shrink-to-fit=no,viewport-fit=cover">
+    <link rel="icon" type="image/png" href="<%= BASE_URL %>favicon.png">
+    <title><%= htmlWebpackPlugin.options.locales.meta.title %></title>
+    <meta name="description" content="<%= htmlWebpackPlugin.options.locales.meta.description %>">
+    <meta property="og:title" content="<%= htmlWebpackPlugin.options.locales.meta.title %>">
+    <meta property="og:type" content="siteweb">
+    <meta property="og:url" content="<%= BASE_URL %>">
+    <meta property="og:image" content="<%= VUE_APP_WEBSITE_URL %>/opengraph.jpg">
+    <meta property="og:description" content="<%= htmlWebpackPlugin.options.locales.meta.description %>">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image”" content="<%= VUE_APP_WEBSITE_URL %>/opengraph.jpg" />
+    <meta name="theme-color" content="#000000">
+  </head>
+  <body>
+    <noscript>
+      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WQCCJV73"
+      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <div id="app"></div>
+
+    <!-- svg filters -->
+    <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+      <defs>
+        <filter id="jitter-0">
+          <feTurbulence id="turbulence" baseFrequency="0.02" numOctaves="1" result="noise" seed="0" type="fractalNoise"/>
+          <feDisplacementMap id="displacement" in="SourceGraphic" in2="noise" scale="3" xChannelSelector="R" yChannelSelector="G" />
+        </filter>
+        <filter id="jitter-1">
+          <feTurbulence id="turbulence" baseFrequency="0.02" numOctaves="1" result="noise" seed="1" type="fractalNoise"/>
+          <feDisplacementMap id="displacement" in="SourceGraphic" in2="noise" scale="4" xChannelSelector="R" yChannelSelector="G" />
+        </filter>
+        <filter id="jitter-2">
+          <feTurbulence id="turbulence" baseFrequency="0.02" numOctaves="1" result="noise" seed="2" type="fractalNoise"/>
+          <feDisplacementMap id="displacement" in="SourceGraphic" in2="noise" scale="1" xChannelSelector="R" yChannelSelector="G" />
+        </filter>
+        <filter id="jitter-3">
+          <feTurbulence id="turbulence" baseFrequency="0.02" numOctaves="1" result="noise" seed="3" type="fractalNoise"/>
+          <feDisplacementMap id="displacement" in="SourceGraphic" in2="noise" scale="4" xChannelSelector="R" yChannelSelector="G" />
+        </filter>
+        <filter id="jitter-4">
+          <feTurbulence id="turbulence" baseFrequency="0.02" numOctaves="1" result="noise" seed="4" type="fractalNoise"/>
+          <feDisplacementMap id="displacement" in="SourceGraphic" in2="noise" scale="1" xChannelSelector="R" yChannelSelector="G" />
+        </filter>
+      </defs>
+    </svg>
+  </body>
+</html>

@@ -1,0 +1,37 @@
+#!/usr/bin/env node
+
+var process = require( './hdr-tonemapper-lib' );
+
+var argv = require('yargs')
+  .options('o', {
+      alias : 'output',
+      default : '-',
+      describe: 'output file'
+  })
+  .options('e', {
+      alias : 'exposure',
+      default : 1.0,
+      describe: 'tm exposure'
+  })
+  .options('g', {
+      alias : 'gamma',
+      default : 2.2,
+      describe: 'tm gamma'
+  })
+   .help('h')
+   .alias('h', 'help')
+   .version('0.1.0', 'v')
+   .alias('v', 'version')
+   .argv;
+
+var input = argv._[0];
+var output= argv.o;
+
+if ( !input || input === '-') {
+  throw new Error( 'no input' )
+}
+if ( output === '-') {
+  throw new Error( 'no output' )
+}
+
+process( input, output, argv.e, argv.g );

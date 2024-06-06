@@ -1,0 +1,22 @@
+$colors = {
+  primary-font: 'Salted',
+  secondary-font: 'Tobias',
+  tertiary-font: 'PP Hatton',
+  black: #000000,
+  blue: #0025C9,
+  white: #FFFFFF,
+  cream: #EFEAD7,
+  dark-blue: #003C74,
+  darker-blue: #001A33,
+  primary-blue: #0783F5,
+  red: #BA2109,
+  green: #2DC200,
+  yellow: #FBBB1A,
+  dark-yellow: #EFF500,
+  coral: #FF858C,
+  light: var(--cream)
+  dark: var(--dark-blue)
+}
+
+for key in keys($colors)
+  define('$' + key, 'var(--%s)' % unquote(key))

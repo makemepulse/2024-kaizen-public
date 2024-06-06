@@ -1,0 +1,119 @@
+.fade-enter-active
+  transition opacity 0.3s ease-out
+
+.fade-leave-active
+  transition opacity 0.2s ease-in
+
+.fade-enter-from, .fade-leave-to
+  opacity 0
+
+.scale-enter-active
+  transition transform 0.3s ease-in-out
+
+.scale-leave-active
+  transition transform 0.2s ease-in-out
+
+.scale-enter-from, .scale-leave-to
+  transform scale(0.95)
+
+.medium-fade-enter-active
+  transition opacity 1s ease-out
+
+.medium-fade-leave-active
+  transition opacity 0.5s ease-in
+
+.medium-fade-enter-from, .medium-fade-leave-to
+  opacity 0
+
+.long-fade-enter-active
+  transition opacity 2s ease-out
+
+.long-fade-leave-active
+  transition opacity 1s ease-in
+
+.long-fade-enter-from, .long-fade-leave-to
+  opacity 0
+
+.slide-y-enter-active
+  transition all 0.3s ease-out
+
+.slide-y-leave-active
+  transition all 0.2s ease-in
+
+.slide-y-enter-from, .slide-y-leave-to
+  transform translateY(20px)
+  opacity 0
+
+// .slide-x-move,
+.slide-x-enter-active
+  transition all 0.4s ease-out
+
+.slide-x-leave-active
+  // position absolute
+  transition all 0.3s ease-in
+
+.slide-x-enter-from, .slide-x-leave-to
+  transform translateX(50px)
+  opacity 0
+
+
+.footer-enter-active
+  transition transform 1s $easeQuartOut
+  .footer-border
+    transition transform 1s $easeQuartOut
+
+.footer-leave-active
+  transition transform 0.6s $easeQuartOut
+  .footer-border
+    transition transform 0.6s $easeQuartOut
+
+.footer-enter-from, .footer-leave-to
+  transform translateY(100%)
+  .footer-border
+    transform scaleX(0)
+
+
+
+.footer-delay-enter-active
+  transition transform 1s $easeQuartOut 0.25s
+  .footer-border
+    transition transform 1s $easeQuartOut 0.25s
+
+.footer-delay-leave-active
+  transition transform 0.6s $easeQuartOut
+  .footer-border
+    transition transform 0.6s $easeQuartOut
+
+.footer-delay-enter-from, .footer-delay-leave-to
+  transform translateY(100%)
+  .footer-border
+    transform scaleX(0)
+
+
+
+@keyframes blink_on_leave
+  0% 
+    opacity 1
+  10% 
+    opacity 1
+  11% 
+    opacity 0
+  20% 
+    opacity 0
+  21% 
+    opacity 1
+  30% 
+    opacity 1
+  31% 
+    opacity 0
+  100% 
+    opacity 0
+
+.blink-on-leave-leave-active
+  transition transform 1s $easeQuartOut
+  
+
+.blink-on-leave-leave-to
+  transform translateY(50%)
+  animation 1s linear 0s infinite alternate blink_on_leave
+  

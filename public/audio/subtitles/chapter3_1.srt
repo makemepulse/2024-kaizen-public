@@ -1,0 +1,19 @@
+1
+00:00:00,000 --> 00:00:02,000
+Jump from <u>rock&nbsp;to&nbsp;rock.</u>
+
+2
+00:00:02,000 --> 00:00:04,500
+<strong>Precision</strong> is the key.
+
+3
+00:00:04,500 --> 00:00:07,100
+How will I reach the very last one? 
+
+4
+00:00:07,100 --> 00:00:09,900
+With <strong>focus and skill</strong> you will {star-empty} triumph.
+
+5
+00:00:09,900 --> 00:00:12,760
+Be <u>considerate</u> and&emsp;thoughtful. {heart-full}

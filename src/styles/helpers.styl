@@ -1,0 +1,39 @@
+$primary-transition = $ui-transition-stand
+$easebounceOut = cubic-bezier(0.22, 1.4, 0.36, 1)
+$easebounceIn = cubic-bezier(0.43, 0, 0.79, -0.28)
+$easeQuintIn = cubic-bezier(0.64, 0, 0.78, 0)
+$easeQuintOut = cubic-bezier(0.22, 1, 0.36, 1)
+$easeQuint = cubic-bezier(0.84, 0, 0.16, 1)
+$easeQuartIn = cubic-bezier(0.52, 0, 0.74, 0)
+$easeQuartOut = cubic-bezier(0.26, 1, 0.48, 1)
+$easeQuart = cubic-bezier(0.76, 0, 0.24, 1)
+
+/**
+* Included in every SFC
+* no css definitions here
+*/
+rem(val)
+  val / 16 * 1rem
+
+full()
+  width 100%
+  height 100%
+
+frames(frame, fps = 60)
+  frame / fps * 1s
+
+/**
+ * Vue transition classes
+ * ---
+ * <transition name="fade">
+ * <transition name="slide-x">
+ * <transition name="slide-x-reverse">
+ * <transition name="slide-y">
+ * <transition name="slide-y-reverse">
+ */
+transition-default()
+  &-enter-active, &-leave-active
+    transition all $primary-transition !important
+
+  &-move
+    transition transform 0.6s

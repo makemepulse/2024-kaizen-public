@@ -1,0 +1,11 @@
+1
+00:00:00,000 --> 00:00:02,100
+How will I reach the <u>very&nbsp;last&nbsp;one</u>? 
+
+2
+00:00:02,100 --> 00:00:04,760
+With <strong>focus and skill</strong> you will {star-empty} triumph.
+
+3
+00:00:04,760 --> 00:00:07,760
+Be <u>considered</u> and {heart-full} <u>thoughtful</u>.

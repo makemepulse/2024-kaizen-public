@@ -1,0 +1,11 @@
+1
+00:00:00,000 --> 00:00:01,750
+I discovered <strong>Curiosity.</strong>
+
+2
+00:00:01,750 --> 00:00:05,820
+Just like the butterfly, I emerged from <strong>my&emsp;chrysalis.</strong>
+
+3
+00:00:05,820 --> 00:00:08,500
+I’m excited by the beauty {flower} of <u>the&emsp;world.</u> 

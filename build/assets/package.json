@@ -1,0 +1,26 @@
+{
+  "name": "assets",
+  "version": "1.0.0",
+  "description": "",
+  "main": "hdr-tonemapper-lib.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@gltf-transform/core": "^3.1.1",
+    "@gltf-transform/functions": "^3.1.1",
+    "hdr": "^0.6.1",
+    "jpeg-js": "^0.4.4",
+    "pngjs": "^3.4.0",
+    "when": "^3.7.8",
+    "xyz-utils": "^0.5.2"
+  },
+  "dependencies": {
+    "@gltf-transform/extensions": "^3.10.0",
+    "@squoosh/lib": "^0.4.0",
+    "sharp": "^0.33.3",
+    "tmp": "^0.2.1"
+  }
+}

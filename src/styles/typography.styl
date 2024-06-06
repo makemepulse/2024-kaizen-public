@@ -1,0 +1,83 @@
+$base-font-size-px = 16
+
+body
+  font-family var(--primary-font)
+  font-size rem($base-font-size-px)
+  line-height 1.25
+  font-weight 300
+  color var(--cream)
+
+b, strong
+  font-weight 700
+
+// Utilities
+.text-center
+  text-align center
+
+.uppercase
+  text-transform uppercase
+
+.font-light     { font-weight: 300 }
+.font-regular   { font-weight: 400 }
+.font-bold      { font-weight: 700 }
+.primary-font   { font-family: var(--primary-font) }
+
+// Figma
+.text, .title, .subtitle, .cta
+  font-family var(--primary-font)
+
+.fake-bold
+  -webkit-text-stroke-width rem(0.25)
+  -webkit-text-stroke-color var(--cream)
+
+.title
+  font-size clamp(26px, 2.5vw, 40px)
+  line-height 1
+  text-transform uppercase
+  font-weight 400
+
+.body
+  @extend .uppercase, .font-light
+  font-size rem(16)
+  line-height 1.2
+  font-weight 400
+  +desktop()
+    font-size rem(24)
+
+.body-s
+  @extend .uppercase
+  font-size rem(16)
+  line-height 1.2
+  +desktop()
+    font-size rem(20)
+
+.body-big
+  @extend .uppercase
+  font-size rem(20)
+  line-height 1.2
+  +desktop()
+    font-size rem(32)
+
+.title-big
+  @extend .uppercase
+  font-size rem(48)
+  line-height 1.1
+  +desktop()
+    font-size rem(128)
+
+.h1
+  font-size rem(146)
+  line-height rem(148)
+  letter-spacing -0.05em
+
+.h2
+  @extend .primary-font, .uppercase
+  font-size rem(36)
+  letter-spacing -26.4px
+  line-height 1.2
+  text-transform uppercase
+  font-weight 300
+  text-align center
+  margin-bottom rem(-32)
+  +desktop()
+    font-size: rem(264);

@@ -1,0 +1,365 @@
+{
+  "asset": {
+    "generator": "glTF-Transform v3.10.1",
+    "version": "2.0"
+  },
+  "accessors": [
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 4,
+      "max": [
+        474.3148498535156,
+        0,
+        28.387941360473633
+      ],
+      "min": [
+        -474.3148498535156,
+        0,
+        -28.387941360473633
+      ],
+      "bufferView": 0,
+      "byteOffset": 0
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 4,
+      "bufferView": 0,
+      "byteOffset": 12
+    },
+    {
+      "type": "VEC2",
+      "componentType": 5126,
+      "count": 4,
+      "bufferView": 0,
+      "byteOffset": 24
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 4,
+      "max": [
+        474.3148498535156,
+        0,
+        28.38794708251953
+      ],
+      "min": [
+        -474.3148498535156,
+        0,
+        -28.38794708251953
+      ],
+      "bufferView": 1,
+      "byteOffset": 0
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 4,
+      "bufferView": 1,
+      "byteOffset": 12
+    },
+    {
+      "type": "VEC2",
+      "componentType": 5126,
+      "count": 4,
+      "bufferView": 1,
+      "byteOffset": 24
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 4,
+      "max": [
+        474.31488037109375,
+        0,
+        28.3879451751709
+      ],
+      "min": [
+        -474.31488037109375,
+        0,
+        -28.3879451751709
+      ],
+      "bufferView": 2,
+      "byteOffset": 0
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 4,
+      "bufferView": 2,
+      "byteOffset": 12
+    },
+    {
+      "type": "VEC2",
+      "componentType": 5126,
+      "count": 4,
+      "bufferView": 2,
+      "byteOffset": 24
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 4,
+      "max": [
+        474.3149719238281,
+        0,
+        30.069225311279297
+      ],
+      "min": [
+        -474.3149719238281,
+        0,
+        -30.069225311279297
+      ],
+      "bufferView": 3,
+      "byteOffset": 0
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 4,
+      "bufferView": 3,
+      "byteOffset": 12
+    },
+    {
+      "type": "VEC2",
+      "componentType": 5126,
+      "count": 4,
+      "bufferView": 3,
+      "byteOffset": 24
+    },
+    {
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 6,
+      "bufferView": 4,
+      "byteOffset": 0
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 128,
+      "byteStride": 32,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 128,
+      "byteLength": 128,
+      "byteStride": 32,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 256,
+      "byteLength": 128,
+      "byteStride": 32,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 384,
+      "byteLength": 128,
+      "byteStride": 32,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 512,
+      "byteLength": 12,
+      "target": 34963
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "extensions": {
+        "KHR_texture_basisu": {
+          "source": 0
+        }
+      }
+    }
+  ],
+  "images": [
+    {
+      "name": "Texture_17",
+      "mimeType": "image/ktx2",
+      "uri": "Texture_17.ktx2"
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "clouds_02.bin",
+      "byteLength": 524
+    }
+  ],
+  "materials": [
+    {
+      "name": "Cloud 01.001",
+      "alphaMode": "BLEND",
+      "doubleSided": true,
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        }
+      },
+      "emissiveFactor": [
+        1,
+        0.011628961190581322,
+        0.2060806155204773
+      ]
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Plane.034",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2
+          },
+          "mode": 4,
+          "material": 0,
+          "indices": 12
+        }
+      ]
+    },
+    {
+      "name": "Plane.035",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 3,
+            "NORMAL": 4,
+            "TEXCOORD_0": 5
+          },
+          "mode": 4,
+          "material": 0,
+          "indices": 12
+        }
+      ]
+    },
+    {
+      "name": "Plane.036",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 6,
+            "NORMAL": 7,
+            "TEXCOORD_0": 8
+          },
+          "mode": 4,
+          "material": 0,
+          "indices": 12
+        }
+      ]
+    },
+    {
+      "name": "Plane.037",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 9,
+            "NORMAL": 10,
+            "TEXCOORD_0": 11
+          },
+          "mode": 4,
+          "material": 0,
+          "indices": 12
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "name": "Clouds.004",
+      "translation": [
+        16.552717208862305,
+        -29.62009048461914,
+        -25.19257354736328
+      ],
+      "rotation": [
+        0,
+        0.920850932598114,
+        0.3899148106575012,
+        0
+      ],
+      "mesh": 0
+    },
+    {
+      "name": "Clouds.005",
+      "translation": [
+        122.34219360351562,
+        23.528762817382812,
+        -24.35913848876953
+      ],
+      "rotation": [
+        0,
+        0.8133617639541626,
+        -0.581758439540863,
+        0
+      ],
+      "mesh": 1
+    },
+    {
+      "name": "Clouds.006",
+      "translation": [
+        -17.466026306152344,
+        -18.905620574951172,
+        16.76494789123535
+      ],
+      "rotation": [
+        0,
+        0.9268514513969421,
+        -0.37542858719825745,
+        0
+      ],
+      "mesh": 2
+    },
+    {
+      "name": "Clouds.007",
+      "translation": [
+        -0.9500160217285156,
+        31.414562225341797,
+        37.786766052246094
+      ],
+      "rotation": [
+        0,
+        0.920850932598114,
+        0.3899148106575012,
+        0
+      ],
+      "mesh": 3
+    }
+  ],
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [
+        0,
+        1,
+        2,
+        3
+      ]
+    }
+  ],
+  "scene": 0,
+  "extensionsUsed": [
+    "KHR_texture_basisu"
+  ],
+  "extensionsRequired": [
+    "KHR_texture_basisu"
+  ]
+}

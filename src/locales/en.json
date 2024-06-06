@@ -1,0 +1,179 @@
+{
+  "meta": {
+    "title": "Kaizen - makemepulse",
+    "description": "At makemepulse, passion fuels everything we do. \nWith each project, we bring a new perspective \nto the table, ensuring every experience is truly one-of-a-kind."
+  },
+  "global": {
+    "title": "Kaizen",
+    "subtitle": "Built with <3 by makemepulse",
+    "website": {
+      "text": "makemepulse.com",
+      "url": "https://www.makemepulse.com/"
+    },
+    "cta_start": "Click to Start",
+    "cta_skip": "Skip",
+    "cta_back": "Back",
+    "cta_enter": "Enter",
+    "cta_hold": "Hold",
+    "headphones": "Use headphones for best experience.",
+    "loader": "A makemepulse\nproduction",
+    "rotate_screen": "Please, rotate your screen.",
+    "hint_hold": "hold for more"
+  },
+  "socials": {
+    "social_1": {
+      "name": "website",
+      "url": "https://www.makemepulse.com/"
+    },
+    "social_2": {
+      "name": "instagram",
+      "url": "https://www.instagram.com/makemepulse/"
+    },
+    "social_3": {
+      "name": "x",
+      "url": "https://twitter.com/makemepulse"
+    },
+    "social_4": {
+      "name": "linkedin",
+      "url": "https://www.linkedin.com/company/makemepulse"
+    }
+  },
+  "scene": {
+    "cta_next": "Next Act",
+    "outro": "The End",
+    "go_back": "Go Back"
+  },
+  "scene-1": {
+    "title": "Curiosity",
+    "subtitle": "(passion) Quo ut eaque molestiae. Esse necessitatibus placeat. Id non ipsam quia aut facilis cupiditate quia.",
+    "cta_hold": "Hold"
+  },
+  "scene-2": {
+    "title": "Drive",
+    "subtitle": "(courage) Quo ut eaque molestiae. Esse necessitatibus placeat. Id non ipsam quia aut facilis cupiditate quia.",
+    "cta_hold": "Hold"
+  },
+  "scene-3": {
+    "title": "Precision",
+    "subtitle": "(wisdom) Quo ut eaque molestiae. Esse necessitatibus placeat. Id non ipsam quia aut facilis cupiditate quia.",
+    "cta_hold": "Hold"
+  },
+  "scene-4": {
+    "title": "Togetherness",
+    "subtitle": "(strength) Quo ut eaque molestiae. Esse necessitatibus placeat. Id non ipsam quia aut facilis cupiditate quia.",
+    "cta_hold": "Hold"
+  },
+  "outro": {
+    "quote_text": "At makemepulse, passion fuels everything we do. \nWith each project, we bring a new perspective \nto the table, ensuring every experience is truly one-of-a-kind.",
+    "quote_cta": "Discover"
+  },
+  "credits-global": {
+    "text": "At makemepulse, passion fuels everything we do. \nWith each project, we bring a new perspective \nto the table, ensuring every experience is truly one-of-a-kind."
+  },
+  "credits-external": {
+    "name_1": "Loïc Bénart",
+    "role_1": "Music and Sound Design",
+    "name_2": "Pierre Brien",
+    "role_2": "Pianist",
+    "name_3": "Kaycie Chase",
+    "role_3": "Kaizen Voice",
+    "name_4": "Debra Reynolds",
+    "role_4": "Guide Voice"
+  },
+  "credits": {
+    "name_1": "Adrien Laurent",
+    "role_1": "Designer",
+    "name_2": "Anthony Meric",
+    "role_2": "Motion Designer",
+    "name_3": "Antoine Ughetto",
+    "role_3": "Co-founder & Head of Innovation",
+    "name_4": "Aude Boyer",
+    "role_4": "Producer",
+    "name_5": "Aurélien Comnos",
+    "role_5": "3D Artist",
+    "name_6": "Camille Chalvin",
+    "role_6": "Creative Strategist",
+    "name_7": "Claire Rieusset",
+    "role_7": "Designer",
+    "name_8": "Connor Holyday",
+    "role_8": "Developer",
+    "name_9": "Daisy Potfer",
+    "role_9": "Growth & Partnerships",
+    "name_10": "David Salobir",
+    "role_10": "Designer",
+    "name_11": "Evan Martin",
+    "role_11": "Creative Developer",
+    "name_12": "Florentin Monteil",
+    "role_12": "Creative Developer",
+    "name_13": "François Cavalin",
+    "role_13": "Producer",
+    "name_14": "Françoise Smagghe",
+    "role_14": "Office Manager",
+    "name_15": "Gauthier Pompougnac",
+    "role_15": "Creative Developer",
+    "name_16": "Grégory Bruneau",
+    "role_16": "Head of Production",
+    "name_17": "Guillaume Colombel",
+    "role_17": "Developer",
+    "name_18": "Helena Nattrass",
+    "role_18": "Growth & Partnerships",
+    "name_19": "Hélène Ta",
+    "role_19": "Producer",
+    "name_20": "Héloise Hauteville",
+    "role_20": "Designer",
+    "name_21": "Jérémie Colombo",
+    "role_21": "Backend Developer",
+    "name_22": "Jérôme Levilly",
+    "role_22": "Designer",
+    "name_23": "Julien Vasseur",
+    "role_23": "Developer",
+    "name_24": "Juliette Desbois",
+    "role_24": "Producer",
+    "name_25": "Justine Peyrot",
+    "role_25": "Producer",
+    "name_26": "Léa Galinha",
+    "role_26": "3D Artist",
+    "name_27": "Luana Doeur",
+    "role_27": "Designer",
+    "name_28": "Lucas Perret",
+    "role_28": "Designer",
+    "name_29": "Manon Bin",
+    "role_29": "Designer",
+    "name_30": "Marine Rabier",
+    "role_30": "Executive Producer",
+    "name_31": "Mathias Roumy",
+    "role_31": "Executive Producer",
+    "name_32": "Mélissa Klaus",
+    "role_32": "Traffic Manager",
+    "name_33": "Nicolas Rajabaly",
+    "role_33": "Co founder & Chief Creative Officer",
+    "name_34": "Nils Landrodie",
+    "role_34": "Creative Developer",
+    "name_35": "Pierre Lepers",
+    "role_35": "Creative Developer",
+    "name_36": "Pierre Nottin",
+    "role_36": "Creative Developer",
+    "name_37": "Rémi Bécuwe",
+    "role_37": "Developer",
+    "name_38": "Romain Passelande",
+    "role_38": "Designer",
+    "name_39": "Romane Chouteau",
+    "role_39": "Creative Developer",
+    "name_40": "Sacha Grunberg",
+    "role_40": "Producer",
+    "name_41": "Sarah Cutler",
+    "role_41": "Chief Growth Officer",
+    "name_42": "Sarah Osrodka",
+    "role_42": "Producer",
+    "name_43": "Solène Robichon",
+    "role_43": "Designer",
+    "name_44": "Thomas Rousset",
+    "role_44": "Designer",
+    "name_45": "Valentin Moreau",
+    "role_45": "Producer",
+    "name_46": "Vincent Saïsset",
+    "role_46": "Developer",
+    "name_47": "Zoé Jeulin",
+    "role_47": "Developer"
+  }
+}

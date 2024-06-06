@@ -1,0 +1,458 @@
+{
+  "asset": {
+    "generator": "glTF-Transform v3.10.1",
+    "version": "2.0"
+  },
+  "accessors": [
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 130,
+      "max": [
+        0.5973151922225952,
+        0.025841139256954193,
+        0.5941796898841858
+      ],
+      "min": [
+        -0.5973510146141052,
+        0.00694979028776288,
+        -0.5972933173179626
+      ],
+      "bufferView": 0,
+      "byteOffset": 0
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 130,
+      "bufferView": 0,
+      "byteOffset": 12
+    },
+    {
+      "type": "VEC2",
+      "componentType": 5126,
+      "count": 130,
+      "bufferView": 0,
+      "byteOffset": 24
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 784,
+      "max": [
+        0.22271883487701416,
+        0.38084909319877625,
+        0.240473672747612
+      ],
+      "min": [
+        -0.19860294461250305,
+        0.033779311925172806,
+        -0.16709204018115997
+      ],
+      "bufferView": 1,
+      "byteOffset": 0
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 784,
+      "bufferView": 1,
+      "byteOffset": 12
+    },
+    {
+      "type": "VEC2",
+      "componentType": 5126,
+      "count": 784,
+      "bufferView": 1,
+      "byteOffset": 24
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 784,
+      "max": [
+        0.4174700975418091,
+        0.34877702593803406,
+        0.38576653599739075
+      ],
+      "min": [
+        -0.4170381724834442,
+        0.02361363172531128,
+        -0.38849055767059326
+      ],
+      "bufferView": 2,
+      "byteOffset": 0
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 784,
+      "bufferView": 2,
+      "byteOffset": 12
+    },
+    {
+      "type": "VEC2",
+      "componentType": 5126,
+      "count": 784,
+      "bufferView": 2,
+      "byteOffset": 24
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 784,
+      "max": [
+        0.43224626779556274,
+        0.2225128412246704,
+        0.40803852677345276
+      ],
+      "min": [
+        -0.40178346633911133,
+        0.004779730923473835,
+        -0.37881165742874146
+      ],
+      "bufferView": 3,
+      "byteOffset": 0
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 784,
+      "bufferView": 3,
+      "byteOffset": 12
+    },
+    {
+      "type": "VEC2",
+      "componentType": 5126,
+      "count": 784,
+      "bufferView": 3,
+      "byteOffset": 24
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 714,
+      "max": [
+        0.11298678815364838,
+        0.3366064727306366,
+        0.11758077144622803
+      ],
+      "min": [
+        -0.11897902190685272,
+        0.06703352928161621,
+        -0.10034245252609253
+      ],
+      "bufferView": 4,
+      "byteOffset": 0
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 714,
+      "bufferView": 4,
+      "byteOffset": 12
+    },
+    {
+      "type": "VEC2",
+      "componentType": 5126,
+      "count": 714,
+      "bufferView": 4,
+      "byteOffset": 24
+    },
+    {
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 576,
+      "bufferView": 5,
+      "byteOffset": 0
+    },
+    {
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 3648,
+      "bufferView": 5,
+      "byteOffset": 1152
+    },
+    {
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 3648,
+      "bufferView": 5,
+      "byteOffset": 8448
+    },
+    {
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 3648,
+      "bufferView": 5,
+      "byteOffset": 15744
+    },
+    {
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 2856,
+      "bufferView": 5,
+      "byteOffset": 23040
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 4160,
+      "byteStride": 32,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 4160,
+      "byteLength": 25088,
+      "byteStride": 32,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 29248,
+      "byteLength": 25088,
+      "byteStride": 32,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 54336,
+      "byteLength": 25088,
+      "byteStride": 32,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 79424,
+      "byteLength": 22848,
+      "byteStride": 32,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 102272,
+      "byteLength": 28752,
+      "target": 34963
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "extensions": {
+        "KHR_texture_basisu": {
+          "source": 0
+        }
+      }
+    },
+    {
+      "sampler": 0,
+      "extensions": {
+        "KHR_texture_basisu": {
+          "source": 1
+        }
+      }
+    }
+  ],
+  "images": [
+    {
+      "name": "Nenuphar_Diffuse",
+      "mimeType": "image/ktx2",
+      "uri": "Nenuphar_Diffuse.ktx2"
+    },
+    {
+      "name": "Lotus_Diffuse",
+      "mimeType": "image/ktx2",
+      "uri": "Lotus_Diffuse.ktx2"
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "lilypads.bin",
+      "byteLength": 131024
+    }
+  ],
+  "materials": [
+    {
+      "name": "Nenuphar",
+      "doubleSided": true,
+      "pbrMetallicRoughness": {
+        "metallicFactor": 0,
+        "baseColorTexture": {
+          "index": 0
+        }
+      }
+    },
+    {
+      "name": "Lotus",
+      "alphaMode": "MASK",
+      "alphaCutoff": 0.5,
+      "doubleSided": true,
+      "pbrMetallicRoughness": {
+        "metallicFactor": 0,
+        "baseColorTexture": {
+          "index": 1
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Circle.015",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2
+          },
+          "mode": 4,
+          "material": 0,
+          "indices": 15
+        }
+      ]
+    },
+    {
+      "name": "Mesh.010",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 3,
+            "NORMAL": 4,
+            "TEXCOORD_0": 5
+          },
+          "mode": 4,
+          "material": 1,
+          "indices": 16
+        }
+      ]
+    },
+    {
+      "name": "Mesh.011",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 6,
+            "NORMAL": 7,
+            "TEXCOORD_0": 8
+          },
+          "mode": 4,
+          "material": 1,
+          "indices": 17
+        }
+      ]
+    },
+    {
+      "name": "Mesh.013",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 9,
+            "NORMAL": 10,
+            "TEXCOORD_0": 11
+          },
+          "mode": 4,
+          "material": 1,
+          "indices": 18
+        }
+      ]
+    },
+    {
+      "name": "Mesh.012",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 12,
+            "NORMAL": 13,
+            "TEXCOORD_0": 14
+          },
+          "mode": 4,
+          "material": 1,
+          "indices": 19
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "name": "Lotus_Position_01",
+      "translation": [
+        0,
+        0.024327000603079796,
+        0
+      ]
+    },
+    {
+      "name": "Lilypad_01",
+      "mesh": 0,
+      "children": [
+        0
+      ]
+    },
+    {
+      "name": "Lotus_01_Part2",
+      "translation": [
+        0,
+        0.024326862767338753,
+        0
+      ],
+      "mesh": 1
+    },
+    {
+      "name": "Lotus_01_Part3",
+      "translation": [
+        0,
+        0.024326862767338753,
+        0
+      ],
+      "mesh": 2
+    },
+    {
+      "name": "Lotus_01_Part4",
+      "translation": [
+        0,
+        0.024327000603079796,
+        0
+      ],
+      "mesh": 3
+    },
+    {
+      "name": "Lotus_01_Part1",
+      "translation": [
+        0,
+        0.024326864629983902,
+        0
+      ],
+      "mesh": 4
+    }
+  ],
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  ],
+  "scene": 0,
+  "extensionsUsed": [
+    "KHR_texture_basisu"
+  ],
+  "extensionsRequired": [
+    "KHR_texture_basisu"
+  ]
+}

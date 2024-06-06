@@ -1,0 +1,22 @@
+@import './rupture'
+@import './variables'
+@import './fonts'
+@import './reset'
+@import './helpers'
+@import './scheme'
+@import './typography'
+@import './utilities'
+@import './transitions'
+@import './grid'
+@import './cursor'
+
+// overwrite cookiebot
+
+#CookiebotWidget
+    box-shadow none  !important
+    .CookiebotWidget-logo
+        display none !important
+        color var(--cream) !important
+        
+        svg circle
+            fill var(--darker-blue) !important

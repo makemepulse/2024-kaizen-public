@@ -1,0 +1,259 @@
+{
+  "src": [
+    "audio/reactions.mp3"
+  ],
+  "sprite": {
+    "kaizen_ch2_smalldive1": [
+      0,
+      2063.673469387755
+    ],
+    "kaizen_ch2_smalldive2": [
+      4000,
+      2063.673469387755
+    ],
+    "kaizen_ch2_smalldive3": [
+      8000,
+      2063.673469387755
+    ],
+    "kaizen_ch2_smalljump1": [
+      12000,
+      2063.673469387755
+    ],
+    "kaizen_ch2_smalljump2": [
+      16000,
+      2063.673469387755
+    ],
+    "kaizen_ch2_smalljump3": [
+      20000,
+      2063.673469387755
+    ],
+    "kaizen_ch2_superdive": [
+      24000,
+      4075.102040816326
+    ],
+    "kaizen_ch3_land1": [
+      30000,
+      1000
+    ],
+    "kaizen_ch3_land2": [
+      32000,
+      1000
+    ],
+    "kaizen_ch3_land3": [
+      34000,
+      1000
+    ],
+    "kaizen_ch3_smalljump1": [
+      36000,
+      1071.020408163264
+    ],
+    "kaizen_ch3_smalljump2": [
+      39000,
+      1071.020408163264
+    ],
+    "kaizen_ch3_smalljump3": [
+      42000,
+      1071.020408163264
+    ],
+    "ui_reaction_kaizen_Incredible_a": [
+      45000,
+      1791.3378684807242
+    ],
+    "ui_reaction_kaizen_Incredible_c": [
+      48000,
+      1533.4920634920622
+    ],
+    "ui_reaction_kaizen_amazing_a": [
+      51000,
+      1903.9229024943297
+    ],
+    "ui_reaction_kaizen_amazing_b": [
+      54000,
+      1840.2040816326562
+    ],
+    "ui_reaction_kaizen_amazing_c": [
+      57000,
+      2048.344671201811
+    ],
+    "ui_reaction_kaizen_best-day_a": [
+      61000,
+      2464.5578231292548
+    ],
+    "ui_reaction_kaizen_best-day_b": [
+      65000,
+      2743.9002267573755
+    ],
+    "ui_reaction_kaizen_best-day_c": [
+      69000,
+      2596.0090702947837
+    ],
+    "ui_reaction_kaizen_boing_a": [
+      73000,
+      931.0657596371925
+    ],
+    "ui_reaction_kaizen_boing_b": [
+      75000,
+      952.9478458049851
+    ],
+    "ui_reaction_kaizen_boing_c": [
+      77000,
+      1402.086167800448
+    ],
+    "ui_reaction_kaizen_brilliant_a": [
+      80000,
+      1213.492063492069
+    ],
+    "ui_reaction_kaizen_brilliant_b": [
+      83000,
+      1500.6349206349228
+    ],
+    "ui_reaction_kaizen_brilliant_c": [
+      86000,
+      1062.5170068027217
+    ],
+    "ui_reaction_kaizen_can-t_believe-it_a": [
+      89000,
+      1520.5215419501174
+    ],
+    "ui_reaction_kaizen_can-t_believe-it_b": [
+      92000,
+      1719.7278911564667
+    ],
+    "ui_reaction_kaizen_can-t_believe-it_c": [
+      95000,
+      2278.3446712018076
+    ],
+    "ui_reaction_kaizen_cool_a": [
+      99000,
+      1803.5147392290298
+    ],
+    "ui_reaction_kaizen_cool_b": [
+      102000,
+      1599.2290249433127
+    ],
+    "ui_reaction_kaizen_cool_c": [
+      105000,
+      1730.6802721088416
+    ],
+    "ui_reaction_kaizen_excited_a": [
+      108000,
+      1643.038548752841
+    ],
+    "ui_reaction_kaizen_excited_b": [
+      111000,
+      1916.8934240362746
+    ],
+    "ui_reaction_kaizen_excited_c": [
+      114000,
+      1730.6802721088416
+    ],
+    "ui_reaction_kaizen_great_a": [
+      117000,
+      717.460317460322
+    ],
+    "ui_reaction_kaizen_hooray_b": [
+      119000,
+      1555.4195011337838
+    ],
+    "ui_reaction_kaizen_hop_a": [
+      122000,
+      438.1405895691586
+    ],
+    "ui_reaction_kaizen_hop_b": [
+      124000,
+      538.2312925170112
+    ],
+    "ui_reaction_kaizen_hop_c": [
+      126000,
+      438.1405895691586
+    ],
+    "ui_reaction_kaizen_laugh-d": [
+      128000,
+      2690.2494331065727
+    ],
+    "ui_reaction_kaizen_laugh_a": [
+      132000,
+      2116.8027210884475
+    ],
+    "ui_reaction_kaizen_laugh_b": [
+      136000,
+      2486.485260770962
+    ],
+    "ui_reaction_kaizen_laugh_c": [
+      140000,
+      2027.5736961451116
+    ],
+    "ui_reaction_kaizen_love-it_c": [
+      144000,
+      1193.9455782312791
+    ],
+    "ui_reaction_kaizen_ribbit_a": [
+      147000,
+      1517.0748299319712
+    ],
+    "ui_reaction_kaizen_ribbit_b": [
+      150000,
+      1506.1224489795961
+    ],
+    "ui_reaction_kaizen_ribbit_c": [
+      153000,
+      1686.8480725623556
+    ],
+    "ui_reaction_kaizen_splash_a": [
+      156000,
+      1314.4444444444332
+    ],
+    "ui_reaction_kaizen_splash_b": [
+      159000,
+      1204.8979591836826
+    ],
+    "ui_reaction_kaizen_splash_c": [
+      162000,
+      1128.2312925170004
+    ],
+    "ui_reaction_kaizen_wanna-go-even-higher_c": [
+      165000,
+      1554.0589569160943
+    ],
+    "ui_reaction_kaizen_whee_a": [
+      168000,
+      1259.6598639455863
+    ],
+    "ui_reaction_kaizen_whee_b": [
+      171000,
+      1615.6462585034035
+    ],
+    "ui_reaction_kaizen_whee_c": [
+      174000,
+      1610.1814058957018
+    ],
+    "ui_reaction_kaizen_woah_a": [
+      177000,
+      854.3990929705103
+    ],
+    "ui_reaction_kaizen_woah_c": [
+      179000,
+      963.9229024943177
+    ],
+    "ui_reaction_kaizen_wow_a": [
+      181000,
+      1161.088435374154
+    ],
+    "ui_reaction_kaizen_wow_b": [
+      184000,
+      865.3514739229138
+    ],
+    "ui_reaction_kaizen_wow_c": [
+      186000,
+      1128.2312925170004
+    ],
+    "ui_reaction_kaizen_yeah_a": [
+      189000,
+      981.6099773242684
+    ],
+    "ui_reaction_kaizen_yeah_c": [
+      191000,
+      1172.040816326529
+    ]
+  }
+}

@@ -1,0 +1,5 @@
+:root
+  // add every color as 2 CSS variables: hex and rgb values
+  for key, value in $colors
+    name = replace('_', '-', key)
+    {unquote('--' + name)} value

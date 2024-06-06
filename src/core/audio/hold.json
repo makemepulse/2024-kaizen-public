@@ -1,0 +1,31 @@
+{
+  "src": [
+    "audio/hold.mp3"
+  ],
+  "sprite": {
+    "kaizen_ch-1_hold": [
+      0,
+      12173.061224489797
+    ],
+    "kaizen_ch-2_hold": [
+      14000,
+      16169.795918367345
+    ],
+    "kaizen_ch-3_hold": [
+      32000,
+      10161.632653061226
+    ],
+    "kaizen_ch-4_hold": [
+      44000,
+      16169.795918367341
+    ],
+    "kaizen_ch-all_nextsuperjumps": [
+      62000,
+      8568.004535147395
+    ],
+    "kaizen_ch-all_superjump": [
+      72000,
+      10055.98639455782
+    ]
+  }
+}

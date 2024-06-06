@@ -1,0 +1,10 @@
+#!/usr/bin/env node
+
+console.log(process.argv);
+const _input  = process.argv[2]
+const _dstFolder = process.argv[3]
+const _size = process.argv[4]
+
+import('./texture-basis.mjs').then(m=>{
+     m.default(_input, _dstFolder, _size)
+})

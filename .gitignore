@@ -1,0 +1,33 @@
+.DS_Store
+node_modules
+/dist
+/tmp
+/assets
+
+/build/assets/src/*/*
+!/build/assets/src/**/build.sh
+# local env files
+.env.local
+.env.*.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor directories and files
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# tools
+build/assets/bin/FBX2glTF
+
+# samples
+src/assets/webgl/gltfs/meetmats
+src/assets/webgl/gltfs/fn-509_with_tactical_kit
+src/assets/webgl/gltfs/ground_control_station_for_uav
